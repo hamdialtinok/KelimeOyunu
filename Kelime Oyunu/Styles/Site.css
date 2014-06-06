@@ -1,0 +1,137 @@
+﻿
+.topla
+{
+    margin-top: 66px;
+    margin-left:20px; 
+    padding: 11px;  
+    background:white no-repeat right top;
+    width:75px;
+    border-radius: 2px;  
+   -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+    font-size:large;
+    font-weight:bold;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);   
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);  
+    box-shadow:  0 0 10px rgba(0,0,0,0.8);
+}
+.puan
+{
+    margin-top: 1px;  
+    margin-left:20px;
+    padding: 11px;  
+    font-size:large;
+    font-weight:bold;
+    background:darkgrey no-repeat right top;
+    width:75px;
+    border-radius: 2px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);   
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);  
+    box-shadow:  0 0 10px rgba(0,0,0,0.8);
+}
+.soru
+{
+    margin-top: 2px;
+    margin-left:27px; 
+    margin-bottom:20px;
+    padding: 11px;  
+    background:darkgrey no-repeat right top;
+    width:375px;
+    height:65px;
+    border-radius: 2px;  
+    font-size:large;
+    font-weight:bold;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);   
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);  
+    box-shadow:  0 0 10px rgba(0,0,0,0.8);
+    width: 30em;
+}
+.hexagon {
+    width: 50px;
+    height: 22px;
+    position: relative;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+    margin-left:20px; 
+     -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);   
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8);  
+    box-shadow:  0 30px 20px rgba(0,0,0,0.8);   
+    border-style:solid;
+   text-align:justify;
+   float:left;
+}
+.hexagon, .hexagon:before, .hexagon:after {
+    background: #F1F1F1;
+    
+    
+}
+.hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 28px;
+    height: 28px;
+    -moz-transform: rotate(325deg) skew(22.5deg);
+    -webkit-transform: rotate(325deg) skew(22.5deg);
+    transform: rotate(325deg) skew(22.5deg);
+    
+}
+.hexagon:before {
+    top: -18px;
+    border-right-style:solid;
+    border-top-style:solid;
+}
+.hexagon:after {
+    top: 9.5px;
+    border-left-style:solid;
+    border-bottom-style:solid;
+}
+.hexagon span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 55px;
+    background:red;
+    z-index: 1;
+     
+}
+
+.hexagon2 span {
+    position: absolute;
+    display: block;
+    border-left: 10px solid grey;
+    border-right: 10px solid grey;
+    width: 20px;
+    
+}
+
+.top {
+    top: 0;
+    border-bottom: 17px solid transparent;
+    border-bottom-color:White;
+    border-bottom-style:solid;
+    
+}
+
+.bottom{
+    bottom: 0;
+    border-top: 17px solid transparent;
+    border-top-color:White;
+}
+
+.hexagon2 {
+    width: 40px;
+    height: 34px;
+    position: relative;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.8);   
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.8); 
+   text-align:center; 
+}​
